@@ -1,0 +1,26 @@
+$$$			// 3 dollar start of file
+
+<K0>SWT11;</K>  //  A/B  menus stuff here...
+<K1>SWT13;</K>  // A->B
+<K2>SWT42;</K>  // SPOT
+
+<K3>SWT29;</K>  // XFILT
+
+<K4>SWT21;</K>  // M1-M2
+<K5>SWT31;</K>  
+<K6>SWT35;</K>  
+<K7>SWT39;</K>  
+
+<E0>UP4;</E>    // encoder modes here 0-3, increment/decrement
+<E1>DN4;</E>    
+
+<E2>UP8;</E>    
+<E3>DN8;</E>    
+
+<E4>UP1;</E>    
+<E5>DN1;</E>    
+
+<E6>UP0;</E>    
+<E7>DN0;</E>	// end of file is ampersand
+
+&&&

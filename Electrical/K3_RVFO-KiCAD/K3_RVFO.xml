@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Dropbox\KiCAD\K3_RVFO\K3_RVFO.sch</source>
+    <date>12/17/2021 5:10:54 PM</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>REMOTE VFO</title>
+        <company>LDO SYSTEMS LLC</company>
+        <rev>A</rev>
+        <date>2021-12-16</date>
+        <source>K3_RVFO.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>DB9_Female</value>
+      <footprint>Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="DB9_Female" description="9-pin female D-SUB connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61BBDE94</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>DB9_Male</value>
+      <footprint>Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="DB9_Male" description="9-pin male D-SUB connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61BC069E</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitors:0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C2594299</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61BE8DE1</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitors:0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C2594299</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61BEA6FF</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitors:0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C2594299</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61BEB724</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitors:0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C2594299</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61BEBCE0</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>SP3232EEN-L</value>
+      <footprint>Silicon-Standard:SO16</footprint>
+      <fields>
+        <field name="Field4">IC-08171</field>
+        <field name="JLCPCB">C9378</field>
+      </fields>
+      <libsource lib="SparkFun-IC-Comms" part="MAX2323SOIC16" description="RS232 Transceiver This part covers 232 drivers that are compatible with the MAX3232. &lt;a href=&quot;http://cdn.sparkfun.com/datasheets/Components/General%20IC/SP3232EBCA-L.pdf&quot;&gt;Sipex SP3232EB Datasheet&lt;/a&gt; &lt;h4&gt;SparkFun Products&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/589&quot;&gt;SOIC component&lt;/a&gt; (COM-00589 /  IC-08171)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Retired&lt;/b&gt; DIP component (COM-00316 / IC-08446)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/11189&quot;&gt;SparkFun Transceiver Breakout - MAX3232&lt;/a&gt; (BOB-11189)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/13225&quot;&gt;SparkFun XBee Explorer Serial&lt;/a&gt; (WRL-13225)&lt;/li&gt;&lt;/ul&gt;"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61BE3C63</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitors:0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C2594299</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61BEFF63</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED:LED_3MM</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C225CF</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED:LED_3MM</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C2100E</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED:LED_3MM</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C1FC4E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C17520</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C49472</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C17520</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C4E3C2</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C17520</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C50307</tstamp>
+    </comp>
+    <comp ref="S8">
+      <value>PB</value>
+      <footprint>Switches:TACTILE_SWITCH_PTH_6.0MM</footprint>
+      <fields>
+        <field name="Field4"> SWCH-08441</field>
+      </fields>
+      <libsource lib="SparkFun-Switches" part="MOMENTARY-SWITCH-SPST-PTH-6.0MM" description="Momentary Switch (Pushbutton) - SPST Normally-open (NO) SPST momentary switches (buttons, pushbuttons). &lt;h4&gt;Variants&lt;/h4&gt;&lt;h5&gt;PTH-12MM - 12mm square, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/9190&quot;&gt;Momentary Pushbutton Switch - 12mm Square&lt;/a&gt; (COM-09190)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-6.0MM, PTH-6.0MM-KIT - 6.0mm square, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/97&quot;&gt;Mini Pushbutton Switch&lt;/a&gt; (COM-00097)&lt;/li&gt;&lt;li&gt;KIT package intended for soldering kit's - only one side of pads' copper is exposed.&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-RIGHT-ANGLE-KIT - Right-angle, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/10791&quot;&gt;Right Angle Tactile Button&lt;/a&gt; - Used on &lt;a href=&quot;https://www.sparkfun.com/products/11734&quot;&gt;SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-12MM - 12mm square, surface-mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12993&quot;&gt;Tactile Button - SMD (12mm)&lt;/a&gt; (COM-12993)&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/11888&quot;&gt;SparkFun PicoBoard&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-4.5MM - 4.5mm Square Trackball Switch&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13169&quot;&gt;SparkFun Blackberry Trackballer Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-4.6MMX2.8MM -  4.60mm x 2.80mm, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13664&quot;&gt;SparkFun SAMD21 Mini Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-5.2MM, SMD-5.2-REDUNDANT - 5.2mm square, surface-mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/8720&quot;&gt;Mini Pushbutton Switch - SMD&lt;/a&gt; (COM-08720)&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/11114&quot;&gt;Arduino Pro Mini&lt;/a&gt;&lt;/li&gt;&lt;li&gt;REDUNDANT package connects both switch circuits together&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-6.0X3.5MM - 6.0 x 3.5mm, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/8229&quot;&gt;Momentary Reset Switch SMD&lt;/a&gt; (COM-08229)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-6.2MM-TALL - 6.2mm square, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12992&quot;&gt;Tactile Button - SMD (6mm)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/12651&quot;&gt;SparkFun Digital Sandbox&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-RIGHT-ANGLE - Right-angle, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13036&quot;&gt;SparkFun Block for Intel  Edison - Arduino&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C7ACED</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>PB</value>
+      <footprint>Switches:TACTILE_SWITCH_PTH_6.0MM</footprint>
+      <fields>
+        <field name="Field4"> SWCH-08441</field>
+      </fields>
+      <libsource lib="SparkFun-Switches" part="MOMENTARY-SWITCH-SPST-PTH-6.0MM" description="Momentary Switch (Pushbutton) - SPST Normally-open (NO) SPST momentary switches (buttons, pushbuttons). &lt;h4&gt;Variants&lt;/h4&gt;&lt;h5&gt;PTH-12MM - 12mm square, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/9190&quot;&gt;Momentary Pushbutton Switch - 12mm Square&lt;/a&gt; (COM-09190)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-6.0MM, PTH-6.0MM-KIT - 6.0mm square, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/97&quot;&gt;Mini Pushbutton Switch&lt;/a&gt; (COM-00097)&lt;/li&gt;&lt;li&gt;KIT package intended for soldering kit's - only one side of pads' copper is exposed.&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-RIGHT-ANGLE-KIT - Right-angle, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/10791&quot;&gt;Right Angle Tactile Button&lt;/a&gt; - Used on &lt;a href=&quot;https://www.sparkfun.com/products/11734&quot;&gt;SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-12MM - 12mm square, surface-mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12993&quot;&gt;Tactile Button - SMD (12mm)&lt;/a&gt; (COM-12993)&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/11888&quot;&gt;SparkFun PicoBoard&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-4.5MM - 4.5mm Square Trackball Switch&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13169&quot;&gt;SparkFun Blackberry Trackballer Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-4.6MMX2.8MM -  4.60mm x 2.80mm, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13664&quot;&gt;SparkFun SAMD21 Mini Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-5.2MM, SMD-5.2-REDUNDANT - 5.2mm square, surface-mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/8720&quot;&gt;Mini Pushbutton Switch - SMD&lt;/a&gt; (COM-08720)&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/11114&quot;&gt;Arduino Pro Mini&lt;/a&gt;&lt;/li&gt;&lt;li&gt;REDUNDANT package connects both switch circuits together&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-6.0X3.5MM - 6.0 x 3.5mm, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/8229&quot;&gt;Momentary Reset Switch SMD&lt;/a&gt; (COM-08229)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-6.2MM-TALL - 6.2mm square, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12992&quot;&gt;Tactile Button - SMD (6mm)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/12651&quot;&gt;SparkFun Digital Sandbox&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-RIGHT-ANGLE - Right-angle, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13036&quot;&gt;SparkFun Block for Intel  Edison - Arduino&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C7D4BC</tstamp>
+    </comp>
+    <comp ref="S5">
+      <value>PB</value>
+      <footprint>Switches:TACTILE_SWITCH_PTH_6.0MM</footprint>
+      <fields>
+        <field name="Field4"> SWCH-08441</field>
+      </fields>
+      <libsource lib="SparkFun-Switches" part="MOMENTARY-SWITCH-SPST-PTH-6.0MM" description="Momentary Switch (Pushbutton) - SPST Normally-open (NO) SPST momentary switches (buttons, pushbuttons). &lt;h4&gt;Variants&lt;/h4&gt;&lt;h5&gt;PTH-12MM - 12mm square, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/9190&quot;&gt;Momentary Pushbutton Switch - 12mm Square&lt;/a&gt; (COM-09190)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-6.0MM, PTH-6.0MM-KIT - 6.0mm square, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/97&quot;&gt;Mini Pushbutton Switch&lt;/a&gt; (COM-00097)&lt;/li&gt;&lt;li&gt;KIT package intended for soldering kit's - only one side of pads' copper is exposed.&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-RIGHT-ANGLE-KIT - Right-angle, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/10791&quot;&gt;Right Angle Tactile Button&lt;/a&gt; - Used on &lt;a href=&quot;https://www.sparkfun.com/products/11734&quot;&gt;SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-12MM - 12mm square, surface-mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12993&quot;&gt;Tactile Button - SMD (12mm)&lt;/a&gt; (COM-12993)&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/11888&quot;&gt;SparkFun PicoBoard&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-4.5MM - 4.5mm Square Trackball Switch&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13169&quot;&gt;SparkFun Blackberry Trackballer Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-4.6MMX2.8MM -  4.60mm x 2.80mm, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13664&quot;&gt;SparkFun SAMD21 Mini Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-5.2MM, SMD-5.2-REDUNDANT - 5.2mm square, surface-mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/8720&quot;&gt;Mini Pushbutton Switch - SMD&lt;/a&gt; (COM-08720)&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/11114&quot;&gt;Arduino Pro Mini&lt;/a&gt;&lt;/li&gt;&lt;li&gt;REDUNDANT package connects both switch circuits together&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-6.0X3.5MM - 6.0 x 3.5mm, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/8229&quot;&gt;Momentary Reset Switch SMD&lt;/a&gt; (COM-08229)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-6.2MM-TALL - 6.2mm square, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12992&quot;&gt;Tactile Button - SMD (6mm)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/12651&quot;&gt;SparkFun Digital Sandbox&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-RIGHT-ANGLE - Right-angle, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13036&quot;&gt;SparkFun Block for Intel  Edison - Arduino&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C7FB51</tstamp>
+    </comp>
+    <comp ref="S7">
+      <value>PB</value>
+      <footprint>Switches:TACTILE_SWITCH_PTH_6.0MM</footprint>
+      <fields>
+        <field name="Field4"> SWCH-08441</field>
+      </fields>
+      <libsource lib="SparkFun-Switches" part="MOMENTARY-SWITCH-SPST-PTH-6.0MM" description="Momentary Switch (Pushbutton) - SPST Normally-open (NO) SPST momentary switches (buttons, pushbuttons). &lt;h4&gt;Variants&lt;/h4&gt;&lt;h5&gt;PTH-12MM - 12mm square, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/9190&quot;&gt;Momentary Pushbutton Switch - 12mm Square&lt;/a&gt; (COM-09190)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-6.0MM, PTH-6.0MM-KIT - 6.0mm square, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/97&quot;&gt;Mini Pushbutton Switch&lt;/a&gt; (COM-00097)&lt;/li&gt;&lt;li&gt;KIT package intended for soldering kit's - only one side of pads' copper is exposed.&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-RIGHT-ANGLE-KIT - Right-angle, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/10791&quot;&gt;Right Angle Tactile Button&lt;/a&gt; - Used on &lt;a href=&quot;https://www.sparkfun.com/products/11734&quot;&gt;SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-12MM - 12mm square, surface-mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12993&quot;&gt;Tactile Button - SMD (12mm)&lt;/a&gt; (COM-12993)&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/11888&quot;&gt;SparkFun PicoBoard&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-4.5MM - 4.5mm Square Trackball Switch&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13169&quot;&gt;SparkFun Blackberry Trackballer Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-4.6MMX2.8MM -  4.60mm x 2.80mm, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13664&quot;&gt;SparkFun SAMD21 Mini Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-5.2MM, SMD-5.2-REDUNDANT - 5.2mm square, surface-mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/8720&quot;&gt;Mini Pushbutton Switch - SMD&lt;/a&gt; (COM-08720)&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/11114&quot;&gt;Arduino Pro Mini&lt;/a&gt;&lt;/li&gt;&lt;li&gt;REDUNDANT package connects both switch circuits together&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-6.0X3.5MM - 6.0 x 3.5mm, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/8229&quot;&gt;Momentary Reset Switch SMD&lt;/a&gt; (COM-08229)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-6.2MM-TALL - 6.2mm square, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12992&quot;&gt;Tactile Button - SMD (6mm)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/12651&quot;&gt;SparkFun Digital Sandbox&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-RIGHT-ANGLE - Right-angle, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13036&quot;&gt;SparkFun Block for Intel  Edison - Arduino&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C820F8</tstamp>
+    </comp>
+    <comp ref="S9">
+      <value>PB</value>
+      <footprint>Switches:TACTILE_SWITCH_PTH_6.0MM</footprint>
+      <fields>
+        <field name="Field4"> SWCH-08441</field>
+      </fields>
+      <libsource lib="SparkFun-Switches" part="MOMENTARY-SWITCH-SPST-PTH-6.0MM" description="Momentary Switch (Pushbutton) - SPST Normally-open (NO) SPST momentary switches (buttons, pushbuttons). &lt;h4&gt;Variants&lt;/h4&gt;&lt;h5&gt;PTH-12MM - 12mm square, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/9190&quot;&gt;Momentary Pushbutton Switch - 12mm Square&lt;/a&gt; (COM-09190)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-6.0MM, PTH-6.0MM-KIT - 6.0mm square, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/97&quot;&gt;Mini Pushbutton Switch&lt;/a&gt; (COM-00097)&lt;/li&gt;&lt;li&gt;KIT package intended for soldering kit's - only one side of pads' copper is exposed.&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-RIGHT-ANGLE-KIT - Right-angle, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/10791&quot;&gt;Right Angle Tactile Button&lt;/a&gt; - Used on &lt;a href=&quot;https://www.sparkfun.com/products/11734&quot;&gt;SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-12MM - 12mm square, surface-mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12993&quot;&gt;Tactile Button - SMD (12mm)&lt;/a&gt; (COM-12993)&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/11888&quot;&gt;SparkFun PicoBoard&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-4.5MM - 4.5mm Square Trackball Switch&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13169&quot;&gt;SparkFun Blackberry Trackballer Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-4.6MMX2.8MM -  4.60mm x 2.80mm, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13664&quot;&gt;SparkFun SAMD21 Mini Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-5.2MM, SMD-5.2-REDUNDANT - 5.2mm square, surface-mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/8720&quot;&gt;Mini Pushbutton Switch - SMD&lt;/a&gt; (COM-08720)&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/11114&quot;&gt;Arduino Pro Mini&lt;/a&gt;&lt;/li&gt;&lt;li&gt;REDUNDANT package connects both switch circuits together&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-6.0X3.5MM - 6.0 x 3.5mm, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/8229&quot;&gt;Momentary Reset Switch SMD&lt;/a&gt; (COM-08229)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-6.2MM-TALL - 6.2mm square, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12992&quot;&gt;Tactile Button - SMD (6mm)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/12651&quot;&gt;SparkFun Digital Sandbox&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-RIGHT-ANGLE - Right-angle, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13036&quot;&gt;SparkFun Block for Intel  Edison - Arduino&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C8483B</tstamp>
+    </comp>
+    <comp ref="S6">
+      <value>PB</value>
+      <footprint>Switches:TACTILE_SWITCH_PTH_6.0MM</footprint>
+      <fields>
+        <field name="Field4"> SWCH-08441</field>
+      </fields>
+      <libsource lib="SparkFun-Switches" part="MOMENTARY-SWITCH-SPST-PTH-6.0MM" description="Momentary Switch (Pushbutton) - SPST Normally-open (NO) SPST momentary switches (buttons, pushbuttons). &lt;h4&gt;Variants&lt;/h4&gt;&lt;h5&gt;PTH-12MM - 12mm square, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/9190&quot;&gt;Momentary Pushbutton Switch - 12mm Square&lt;/a&gt; (COM-09190)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-6.0MM, PTH-6.0MM-KIT - 6.0mm square, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/97&quot;&gt;Mini Pushbutton Switch&lt;/a&gt; (COM-00097)&lt;/li&gt;&lt;li&gt;KIT package intended for soldering kit's - only one side of pads' copper is exposed.&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-RIGHT-ANGLE-KIT - Right-angle, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/10791&quot;&gt;Right Angle Tactile Button&lt;/a&gt; - Used on &lt;a href=&quot;https://www.sparkfun.com/products/11734&quot;&gt;SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-12MM - 12mm square, surface-mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12993&quot;&gt;Tactile Button - SMD (12mm)&lt;/a&gt; (COM-12993)&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/11888&quot;&gt;SparkFun PicoBoard&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-4.5MM - 4.5mm Square Trackball Switch&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13169&quot;&gt;SparkFun Blackberry Trackballer Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-4.6MMX2.8MM -  4.60mm x 2.80mm, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13664&quot;&gt;SparkFun SAMD21 Mini Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-5.2MM, SMD-5.2-REDUNDANT - 5.2mm square, surface-mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/8720&quot;&gt;Mini Pushbutton Switch - SMD&lt;/a&gt; (COM-08720)&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/11114&quot;&gt;Arduino Pro Mini&lt;/a&gt;&lt;/li&gt;&lt;li&gt;REDUNDANT package connects both switch circuits together&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-6.0X3.5MM - 6.0 x 3.5mm, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/8229&quot;&gt;Momentary Reset Switch SMD&lt;/a&gt; (COM-08229)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-6.2MM-TALL - 6.2mm square, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12992&quot;&gt;Tactile Button - SMD (6mm)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/12651&quot;&gt;SparkFun Digital Sandbox&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-RIGHT-ANGLE - Right-angle, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13036&quot;&gt;SparkFun Block for Intel  Edison - Arduino&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C786A8</tstamp>
+    </comp>
+    <comp ref="S4">
+      <value>PB</value>
+      <footprint>Switches:TACTILE_SWITCH_PTH_6.0MM</footprint>
+      <fields>
+        <field name="Field4"> SWCH-08441</field>
+      </fields>
+      <libsource lib="SparkFun-Switches" part="MOMENTARY-SWITCH-SPST-PTH-6.0MM" description="Momentary Switch (Pushbutton) - SPST Normally-open (NO) SPST momentary switches (buttons, pushbuttons). &lt;h4&gt;Variants&lt;/h4&gt;&lt;h5&gt;PTH-12MM - 12mm square, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/9190&quot;&gt;Momentary Pushbutton Switch - 12mm Square&lt;/a&gt; (COM-09190)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-6.0MM, PTH-6.0MM-KIT - 6.0mm square, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/97&quot;&gt;Mini Pushbutton Switch&lt;/a&gt; (COM-00097)&lt;/li&gt;&lt;li&gt;KIT package intended for soldering kit's - only one side of pads' copper is exposed.&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-RIGHT-ANGLE-KIT - Right-angle, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/10791&quot;&gt;Right Angle Tactile Button&lt;/a&gt; - Used on &lt;a href=&quot;https://www.sparkfun.com/products/11734&quot;&gt;SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-12MM - 12mm square, surface-mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12993&quot;&gt;Tactile Button - SMD (12mm)&lt;/a&gt; (COM-12993)&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/11888&quot;&gt;SparkFun PicoBoard&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-4.5MM - 4.5mm Square Trackball Switch&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13169&quot;&gt;SparkFun Blackberry Trackballer Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-4.6MMX2.8MM -  4.60mm x 2.80mm, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13664&quot;&gt;SparkFun SAMD21 Mini Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-5.2MM, SMD-5.2-REDUNDANT - 5.2mm square, surface-mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/8720&quot;&gt;Mini Pushbutton Switch - SMD&lt;/a&gt; (COM-08720)&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/11114&quot;&gt;Arduino Pro Mini&lt;/a&gt;&lt;/li&gt;&lt;li&gt;REDUNDANT package connects both switch circuits together&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-6.0X3.5MM - 6.0 x 3.5mm, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/8229&quot;&gt;Momentary Reset Switch SMD&lt;/a&gt; (COM-08229)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-6.2MM-TALL - 6.2mm square, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12992&quot;&gt;Tactile Button - SMD (6mm)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/12651&quot;&gt;SparkFun Digital Sandbox&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-RIGHT-ANGLE - Right-angle, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13036&quot;&gt;SparkFun Block for Intel  Edison - Arduino&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C75F0F</tstamp>
+    </comp>
+    <comp ref="S3">
+      <value>PB</value>
+      <footprint>Switches:TACTILE_SWITCH_PTH_6.0MM</footprint>
+      <fields>
+        <field name="Field4"> SWCH-08441</field>
+      </fields>
+      <libsource lib="SparkFun-Switches" part="MOMENTARY-SWITCH-SPST-PTH-6.0MM" description="Momentary Switch (Pushbutton) - SPST Normally-open (NO) SPST momentary switches (buttons, pushbuttons). &lt;h4&gt;Variants&lt;/h4&gt;&lt;h5&gt;PTH-12MM - 12mm square, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/9190&quot;&gt;Momentary Pushbutton Switch - 12mm Square&lt;/a&gt; (COM-09190)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-6.0MM, PTH-6.0MM-KIT - 6.0mm square, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/97&quot;&gt;Mini Pushbutton Switch&lt;/a&gt; (COM-00097)&lt;/li&gt;&lt;li&gt;KIT package intended for soldering kit's - only one side of pads' copper is exposed.&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-RIGHT-ANGLE-KIT - Right-angle, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/10791&quot;&gt;Right Angle Tactile Button&lt;/a&gt; - Used on &lt;a href=&quot;https://www.sparkfun.com/products/11734&quot;&gt;SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-12MM - 12mm square, surface-mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12993&quot;&gt;Tactile Button - SMD (12mm)&lt;/a&gt; (COM-12993)&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/11888&quot;&gt;SparkFun PicoBoard&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-4.5MM - 4.5mm Square Trackball Switch&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13169&quot;&gt;SparkFun Blackberry Trackballer Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-4.6MMX2.8MM -  4.60mm x 2.80mm, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13664&quot;&gt;SparkFun SAMD21 Mini Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-5.2MM, SMD-5.2-REDUNDANT - 5.2mm square, surface-mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/8720&quot;&gt;Mini Pushbutton Switch - SMD&lt;/a&gt; (COM-08720)&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/11114&quot;&gt;Arduino Pro Mini&lt;/a&gt;&lt;/li&gt;&lt;li&gt;REDUNDANT package connects both switch circuits together&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-6.0X3.5MM - 6.0 x 3.5mm, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/8229&quot;&gt;Momentary Reset Switch SMD&lt;/a&gt; (COM-08229)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-6.2MM-TALL - 6.2mm square, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12992&quot;&gt;Tactile Button - SMD (6mm)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/12651&quot;&gt;SparkFun Digital Sandbox&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-RIGHT-ANGLE - Right-angle, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/13036&quot;&gt;SparkFun Block for Intel  Edison - Arduino&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C6C61C</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_4x5.7</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C59932</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D35D19</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_Molex-105017-0001</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C10418</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61C40B97</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>RJ12</value>
+      <footprint>Connector_RJ:RJ12_Amphenol_54601</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="RJ12" description="RJ connector, 6P6C (6 positions 6 connected)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61BD7C7D</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>RJ12</value>
+      <footprint>Connector_RJ:RJ12_Amphenol_54601</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="RJ12" description="RJ connector, 6P6C (6 positions 6 connected)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61BD0B61</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>YAAJ_BlackPill_Part_Like_SWD_Breakout</value>
+      <footprint>BlackAndBlue:YAAJ_BlackPill_SWD_2</footprint>
+      <libsource lib="YAAJ_BlackPill_Part_Like_SWD_Breakout" part="YAAJ_BlackPill_Part_Like_SWD_Breakout" description="STM32 Black Pill part like ; broken out SWD pins ; not KLC compliant"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61E6A3B5</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AT24CS32-SSHM</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8869-SEEPROM-AT24CS32-Datasheet.pdf</datasheet>
+      <libsource lib="Memory_EEPROM" part="AT24CS32-SSHM" description="I2C Serial EEPROM, 32Kb (4096x8) with Unique Serial Number, SO8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61EE715B</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FE6E87</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FE7A0B</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FF0CA6</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FF9D2F</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C17520</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6202F181</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C17520</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62030A71</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C17520</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62030C8F</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C17520</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62030E2A</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C17520</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62031014</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C17520</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62031195</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C17520</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6203132D</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C17520</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62031511</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C17520</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>620DECEB</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C17520</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>620E0041</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C17520</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6212F9E9</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>C14N32P-C3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62438AA6</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C17520</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>625165A4</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C17520</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6251717F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="6P6C">
+      <aliases>
+        <alias>RJ12</alias>
+        <alias>RJ18</alias>
+        <alias>RJ25</alias>
+      </aliases>
+      <description>RJ connector, 6P6C (6 positions 6 connected), RJ12/RJ18/RJ25</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>6P6C*</fp>
+        <fp>RJ12*</fp>
+        <fp>RJ18*</fp>
+        <fp>RJ25*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">6P6C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DB9_Female">
+      <description>9-pin female D-SUB connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Female*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB9_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DB9_Male">
+      <description>9-pin male D-SUB connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Male*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB9_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Memory_EEPROM" part="AT24CS32-SSHM">
+      <description>I2C Serial EEPROM, 32Kb (4096x8) with Unique Serial Number, SO8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8869-SEEPROM-AT24CS32-Datasheet.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AT24CS32-SSHM</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-IC-Comms" part="MAX2323SOIC16">
+      <description>RS232 Transceiver This part covers 232 drivers that are compatible with the MAX3232. &lt;a href="http://cdn.sparkfun.com/datasheets/Components/General%20IC/SP3232EBCA-L.pdf"&gt;Sipex SP3232EB Datasheet&lt;/a&gt; &lt;h4&gt;SparkFun Products&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/589"&gt;SOIC component&lt;/a&gt; (COM-00589 /  IC-08171)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Retired&lt;/b&gt; DIP component (COM-00316 / IC-08446)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11189"&gt;SparkFun Transceiver Breakout - MAX3232&lt;/a&gt; (BOB-11189)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13225"&gt;SparkFun XBee Explorer Serial&lt;/a&gt; (WRL-13225)&lt;/li&gt;&lt;/ul&gt;</description>
+      <footprints>
+        <fp>*SO16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX2323SOIC16</field>
+        <field name="Footprint">SO16</field>
+        <field name="Field4">IC-08171</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C1+" type="BiDi"/>
+        <pin num="2" name="V+" type="BiDi"/>
+        <pin num="3" name="C1-" type="BiDi"/>
+        <pin num="4" name="C2+" type="BiDi"/>
+        <pin num="5" name="C2-" type="BiDi"/>
+        <pin num="6" name="V-" type="BiDi"/>
+        <pin num="7" name="T2OUT" type="output"/>
+        <pin num="8" name="R2IN" type="input"/>
+        <pin num="9" name="R2OUT" type="output"/>
+        <pin num="10" name="T2IN" type="input"/>
+        <pin num="11" name="T1IN" type="input"/>
+        <pin num="12" name="R1OUT" type="output"/>
+        <pin num="13" name="R1IN" type="input"/>
+        <pin num="14" name="T1OUT" type="output"/>
+        <pin num="15" name="GND" type="BiDi"/>
+        <pin num="16" name="VCC" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Switches" part="MOMENTARY-SWITCH-SPST-PTH-6.0MM">
+      <description>Momentary Switch (Pushbutton) - SPST Normally-open (NO) SPST momentary switches (buttons, pushbuttons). &lt;h4&gt;Variants&lt;/h4&gt;&lt;h5&gt;PTH-12MM - 12mm square, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9190"&gt;Momentary Pushbutton Switch - 12mm Square&lt;/a&gt; (COM-09190)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-6.0MM, PTH-6.0MM-KIT - 6.0mm square, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/97"&gt;Mini Pushbutton Switch&lt;/a&gt; (COM-00097)&lt;/li&gt;&lt;li&gt;KIT package intended for soldering kit's - only one side of pads' copper is exposed.&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;PTH-RIGHT-ANGLE-KIT - Right-angle, through-hole&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10791"&gt;Right Angle Tactile Button&lt;/a&gt; - Used on &lt;a href="https://www.sparkfun.com/products/11734"&gt;SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-12MM - 12mm square, surface-mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12993"&gt;Tactile Button - SMD (12mm)&lt;/a&gt; (COM-12993)&lt;/li&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/11888"&gt;SparkFun PicoBoard&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-4.5MM - 4.5mm Square Trackball Switch&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13169"&gt;SparkFun Blackberry Trackballer Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-4.6MMX2.8MM -  4.60mm x 2.80mm, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13664"&gt;SparkFun SAMD21 Mini Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-5.2MM, SMD-5.2-REDUNDANT - 5.2mm square, surface-mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8720"&gt;Mini Pushbutton Switch - SMD&lt;/a&gt; (COM-08720)&lt;/li&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/11114"&gt;Arduino Pro Mini&lt;/a&gt;&lt;/li&gt;&lt;li&gt;REDUNDANT package connects both switch circuits together&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-6.0X3.5MM - 6.0 x 3.5mm, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/8229"&gt;Momentary Reset Switch SMD&lt;/a&gt; (COM-08229)&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-6.2MM-TALL - 6.2mm square, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12992"&gt;Tactile Button - SMD (6mm)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/12651"&gt;SparkFun Digital Sandbox&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-RIGHT-ANGLE - Right-angle, surface mount&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/13036"&gt;SparkFun Block for Intel  Edison - Arduino&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <footprints>
+        <fp>*TACTILE_SWITCH_PTH_6.0MM*</fp>
+        <fp>*TACTILE_SWITCH_PTH_6.0MM_KIT*</fp>
+        <fp>*TACTILE_SWITCH_PTH_12MM*</fp>
+        <fp>*TACTILE_SWITCH_SMD_5.2MM*</fp>
+        <fp>*TACTILE_SWITCH_SMD_12MM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">MOMENTARY-SWITCH-SPST-PTH-6.0MM</field>
+        <field name="Footprint">TACTILE_SWITCH_PTH_6.0MM</field>
+        <field name="Field4"> SWCH-08441</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="3" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="YAAJ_BlackPill_Part_Like_SWD_Breakout" part="YAAJ_BlackPill_Part_Like_SWD_Breakout">
+      <description>STM32 Black Pill part like ; broken out SWD pins ; not KLC compliant</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">YAAJ_BlackPill_Part_Like_SWD_Breakout</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB12" type="BiDi"/>
+        <pin num="2" name="PB13" type="BiDi"/>
+        <pin num="3" name="PB14" type="BiDi"/>
+        <pin num="4" name="PB15" type="BiDi"/>
+        <pin num="5" name="PA8" type="BiDi"/>
+        <pin num="6" name="PA9" type="BiDi"/>
+        <pin num="7" name="PA10" type="BiDi"/>
+        <pin num="8" name="PA11" type="BiDi"/>
+        <pin num="9" name="PA12" type="BiDi"/>
+        <pin num="10" name="PA15" type="BiDi"/>
+        <pin num="11" name="PB3" type="BiDi"/>
+        <pin num="12" name="PB4" type="BiDi"/>
+        <pin num="13" name="PB5" type="BiDi"/>
+        <pin num="14" name="PB6" type="BiDi"/>
+        <pin num="15" name="PB7" type="BiDi"/>
+        <pin num="16" name="3V3" type="power_in"/>
+        <pin num="17" name="5V" type="power_in"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="PB8" type="BiDi"/>
+        <pin num="20" name="PB9" type="BiDi"/>
+        <pin num="21" name="PC13" type="BiDi"/>
+        <pin num="22" name="RST" type="input"/>
+        <pin num="23" name="PA0" type="BiDi"/>
+        <pin num="24" name="PA1" type="BiDi"/>
+        <pin num="25" name="PA2" type="BiDi"/>
+        <pin num="26" name="PA3" type="BiDi"/>
+        <pin num="27" name="PA4" type="BiDi"/>
+        <pin num="28" name="PA5" type="BiDi"/>
+        <pin num="29" name="PA6" type="BiDi"/>
+        <pin num="30" name="PA7" type="BiDi"/>
+        <pin num="31" name="PB0" type="BiDi"/>
+        <pin num="32" name="PB1" type="BiDi"/>
+        <pin num="33" name="PB10" type="BiDi"/>
+        <pin num="34" name="PB11" type="BiDi"/>
+        <pin num="35" name="3V3" type="power_in"/>
+        <pin num="36" name="SWDIO" type="BiDi"/>
+        <pin num="37" name="SWCLK" type="input"/>
+        <pin num="38" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>D:\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>D:\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Memory_EEPROM">
+      <uri>D:\KiCad\share\kicad\library/Memory_EEPROM.lib</uri>
+    </library>
+    <library logical="SparkFun-IC-Comms">
+      <uri>D:/Dropbox/KiCAD/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-IC-Comms.lib</uri>
+    </library>
+    <library logical="SparkFun-Switches">
+      <uri>D:/Dropbox/KiCAD/SparkFun-KiCad-Libraries-master/Libraries/SparkFun-Switches.lib</uri>
+    </library>
+    <library logical="YAAJ_BlackPill_Part_Like_SWD_Breakout">
+      <uri>D:/Dropbox/KiCAD/Kicad-STM32-master/Symbols/YAAJ_BlackPill_Part_Like_SWD_Breakout.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R15-Pad1)">
+      <node ref="U2" pin="14"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="J5" pin="3"/>
+      <node ref="S9" pin="1"/>
+      <node ref="S7" pin="1"/>
+      <node ref="S5" pin="1"/>
+      <node ref="S2" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="S6" pin="3"/>
+      <node ref="S4" pin="3"/>
+      <node ref="S3" pin="3"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U2" pin="18"/>
+      <node ref="S8" pin="3"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="3" name="Net-(U2-Pad21)">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="4" name="Net-(U2-Pad20)">
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="5" name="Net-(U2-Pad19)">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="6" name="Net-(J6-Pad5)">
+      <node ref="J6" pin="5"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="7" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="8" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="9" name="Net-(J3-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="10" name="Net-(U2-Pad36)">
+      <node ref="U2" pin="36"/>
+    </net>
+    <net code="11" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="12" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="13" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="14" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="15" name="Net-(U2-Pad38)">
+      <node ref="U2" pin="38"/>
+    </net>
+    <net code="16" name="Net-(U2-Pad37)">
+      <node ref="U2" pin="37"/>
+    </net>
+    <net code="17" name="Net-(U2-Pad35)">
+      <node ref="U2" pin="35"/>
+    </net>
+    <net code="18" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="19" name="Net-(U2-Pad24)">
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="20" name="Net-(U2-Pad23)">
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="21" name="Net-(J6-Pad3)">
+      <node ref="U2" pin="13"/>
+      <node ref="R5" pin="1"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="22" name="+3V3">
+      <node ref="U3" pin="16"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="16"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="23" name="Net-(R16-Pad1)">
+      <node ref="U2" pin="15"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="24" name="Net-(R9-Pad1)">
+      <node ref="S6" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="25" name="Net-(R8-Pad1)">
+      <node ref="U2" pin="33"/>
+      <node ref="R8" pin="1"/>
+      <node ref="S4" pin="1"/>
+    </net>
+    <net code="26" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="U2" pin="34"/>
+      <node ref="S3" pin="1"/>
+    </net>
+    <net code="27" name="Net-(J6-Pad4)">
+      <node ref="R6" pin="1"/>
+      <node ref="J6" pin="4"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="28" name="Net-(C6-Pad1)">
+      <node ref="U3" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="29" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="30" name="Net-(C3-Pad2)">
+      <node ref="U3" pin="5"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D2-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="32" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="33" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="34" name="/RX2">
+      <node ref="U3" pin="9"/>
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="35" name="/RX1">
+      <node ref="U2" pin="7"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="36" name="/TX2">
+      <node ref="U2" pin="25"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="37" name="/TX1">
+      <node ref="U3" pin="11"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="38" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="39" name="Net-(J1-Pad7)">
+      <node ref="J2" pin="7"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="40" name="/ePCTX">
+      <node ref="U3" pin="14"/>
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="41" name="/eRADTX">
+      <node ref="J5" pin="2"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="42" name="/ePCRX">
+      <node ref="J5" pin="4"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="43" name="/RADRX">
+      <node ref="J4" pin="6"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="44" name="/PCTX">
+      <node ref="J4" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="45" name="/RADTX">
+      <node ref="J2" pin="3"/>
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="46" name="/PCRX">
+      <node ref="J4" pin="3"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="47" name="Net-(J1-Pad4)">
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="48" name="Net-(J1-Pad8)">
+      <node ref="J2" pin="8"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="49" name="Net-(J2-Pad9)">
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="50" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="51" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="52" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="53" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="54" name="/iGND">
+      <node ref="J4" pin="4"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="55" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="56" name="/eRADRX">
+      <node ref="J5" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="57" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="58" name="Net-(C2-Pad1)">
+      <node ref="U3" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="59" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="60" name="VCC">
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J5" pin="6"/>
+      <node ref="U2" pin="17"/>
+      <node ref="R3" pin="2"/>
+      <node ref="J6" pin="6"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="61" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="62" name="Net-(J3-Pad6)">
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="63" name="Net-(R12-Pad1)">
+      <node ref="U2" pin="29"/>
+      <node ref="R12" pin="1"/>
+      <node ref="S7" pin="3"/>
+    </net>
+    <net code="64" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="U2" pin="28"/>
+      <node ref="S5" pin="3"/>
+    </net>
+    <net code="65" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="U2" pin="27"/>
+      <node ref="S2" pin="3"/>
+    </net>
+    <net code="66" name="Net-(R10-Pad1)">
+      <node ref="U2" pin="31"/>
+      <node ref="R10" pin="1"/>
+      <node ref="S8" pin="1"/>
+    </net>
+    <net code="67" name="Net-(R11-Pad1)">
+      <node ref="S9" pin="3"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="68" name="Net-(D3-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="69" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+  </nets>
+</export>
