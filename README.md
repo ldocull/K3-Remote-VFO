@@ -18,7 +18,7 @@ The Mechanics were designed in Fusion 360, A full step-assembly is in the repo w
 The construction is plastic. The case frame was FDM printed from PLA, and the top/bottom were laser cut from 
 0.08" acrylic. The main-dial and keycaps were SLA (resin) printed on an [Elegoo Mars](https://www.elegoo.com/collections/3d-printing/products/elegoo-mars-3-lcd-3d-printer) printer.
 
-The Electronics were designed in KiCAD. KiCAD is free and easy to use, so this should be a good start for further work. I used [JLCPCB](https://jlcpcb.com/) to manufacture the PCBs without issue.
+The Electronics were designed in KiCAD. KiCAD is free and easy to use, so this should be a good start for further work. I used [JLCPCB](https://jlcpcb.com/) to manufacture the PCBs.
 
 ![PCB Setup](https://imgur.com/WaAMKzH.png)
 
