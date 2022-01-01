@@ -15,6 +15,8 @@ The Connector Interface goes between the control PC and the Rig using classic RS
 
 The Mechanics were designed in Fusion 360, A full step-assembly is in the repo which could be pulled into any modern CAD package for alteration.   The Electronics were designed in KiCAD. KiCAD is free and easy to use, so this should be a good start for further work. I used [JLCPCB](https://jlcpcb.com/) to manufacture the PCBs without issue.
 
+![PCB Setup](https://imgur.com/WaAMKzH.png)
+
 The Software is Arduino-based and runs on a [STM32F103C8 BlackPill](https://hobbycomponents.com/st-micro-electronics/960-stm32f103-black-pill-development-board). The project is in Visual Studio Code, and PlatformIO which are currently both free tools.  The Maple bootloader was installed to make the development quick and easy and is included in the repo.
 
 ## Updating Encoder and Key Definitions
